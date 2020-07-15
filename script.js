@@ -7,4 +7,5 @@ date.innerHTML = new Date().getFullYear();
 
 navToggle.addEventListener('click', function(){
     linksContainer.classList.toggle('show-links');
+    navToggle.classList.toggle('show-icon')
 })

@@ -79,6 +79,32 @@ h1, h2, h3, h4, h5, h6, p{
     color: var(--black);
 }
 
+.bars{
+    display: block;
+    transition: var(--transition);
+}
+
+.times{
+    color: rgb(200, 21, 21);
+    font-size: 1.5rem;
+    transition: var(--transition);
+    display: none;
+}
+
+.times:hover{
+    transform: scale(1.2);
+}
+
+/* hide icon */
+.show-icon .bars{
+    display: none;
+}
+
+.show-icon .times{
+    display: block;
+}
+
+
 
 .logo-container{
     display: flex;
