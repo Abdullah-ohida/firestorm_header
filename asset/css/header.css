@@ -78,15 +78,6 @@ h1, h2, h3, h4, h5, h6, p{
     color: var(--black);
 }
 
-.times i{
-    color: rgb(212, 16, 16);
-    font-size: 1.3rem;
-}
-
-.times i:hover{
-    transform: scale(1.4);
-    transition: var(--transition);
-}
 
 .logo-container{
     display: flex;
@@ -293,7 +284,6 @@ section{
     align-items: center;
     justify-content: space-between;
     max-width: var(--max-width);
-    width: 100%;
     margin-left: 4rem;
     margin-bottom: 2rem;
     transition: var(--transition);
@@ -331,7 +321,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: var(--max-width);
+    /* max-width: var(--max-width); */
     padding-bottom: 1rem;
     color: var(--white);
     padding: 0.7rem 2rem;
