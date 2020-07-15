@@ -151,8 +151,9 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .btn:hover{
-    transform: scale(1.1);
-    border-radius: var(--radius);
+   border: 2px solid #d8315b;
+    background-color: transparent;
+    color: #d8315b;
 }
 
 .links a:hover{
@@ -218,8 +219,9 @@ h1, h2, h3, h4, h5, h6, p{
     }
 
     .btn:hover{
-        transform: scale(1.1);
-        border-radius: var(--radius);
+        border: 2px solid #d8315b;
+        background-color: transparent;
+        color: #d8315b;
     }
 
     .search{
